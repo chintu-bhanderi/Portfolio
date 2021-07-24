@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            /* border: 2px solid gray; */
+            margin: 102px auto;
+            padding: 2px 2px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .formgroup input {
+            text-align: center;
+            width: 200px;
+            display: block;
+            /* width: 30px; */
+            padding: 10px 17px;
+            margin: 6px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome our webside</h1>
+        <form action="info.php" method="POST">
+            <div class="formgroup">
+                <input type="text" name="uname" placeholder="Enter your Name">
+                <input type="email" name="email" placeholder="Enter your Email_id">
+                <input type="mobile" name="mno" placeholder="Enter your Phone Number">
+                
+            </div>
+            <button class="btn">Submit</button><br>
+        </form>
+    </div>
+</body>
+
+</html>
